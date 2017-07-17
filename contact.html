@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>contact</title>
+  <style media="screen">
+  body{
+      height: auto;
+  }
+    .container_contact {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      margin-top: 5%;
+      margin-bottom: 100px;
+    }
+
+    .container_contact p {
+        font-size: 20px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .contact_form {
+      width: 50%;
+
+      border-radius: 5px;
+      background-color: #2F4F4F;
+      padding: 20px;
+      border-radius: 15px;
+      overflow: hidden;
+      margin: auto;
+      color:	#D3D3D3;
+      font-weight: bold;
+    }
+
+    .contact_form form input[type=text],
+    [type=number] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      box-sizing: border-box;
+    }
+
+    .contact_form form input[type=text],
+    [type=number],
+    input[type=submit]:focus {
+      outline: none;
+    }
+
+    .contact_form form input[type=submit] {
+      width: 100%;
+      background-color: rgba(242,242,242,0.8);;
+      color: black;
+      padding:10px 20px ;
+      margin: 10px 0;
+      border: none;
+      border-radius: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+        transition: 1s;
+
+    }
+
+    .contact_form form input[type=submit]:hover {
+      background-color:#000000;
+      transition: 1s;
+      color: white;
+    }
+    .contact_quote{
+      width: 50%;
+      height: auto;
+    }
+    .contact_quote img {
+      width: 55%;
+      height: 90%;
+      margin-right: 20%;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    @media screen and (max-width:870px) {
+      .container_contact {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .contact_form{
+        width: 70%;
+
+      }
+
+  }
+  @media screen and (max-width:600px){
+    .contact_form{
+    width: 100%;
+    }
+
+
+  }
+
+
+
+  </style>
+
+</head>
+
+<body>
+  <div class="container_contact">
+
+    <div class="contact_form">
+      <form action="user-info.php" method="post">
+        <p>הצטרפות לאימון ניסיון</p>
+        <label for="fname">שם מלא</label>
+        <input type="text" id="fname" name="name" placeholder="שם מלא" required="required">
+        <label for="lname">מספר פלפון</label>
+        <input type="text" id="lname" name="phone" placeholder="מספר פלפון" required="required">
+        <label for="age">גיל</label>
+        <input type="number" name="age" min="1" max="120" placeholder="גיל" required="required">
+        <input type="submit" value="שלח" class="sub_btn">
+      </form>
+    </div>
+
+    <script src="contact.js" charset="utf-8"></script>
+  </div>
+</body>
+
+</html>

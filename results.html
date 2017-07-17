@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>results</title>
+  <style media="screen">
+    body {
+      direction: rtl;
+      width: 100%;
+    }
+
+    .results_text h2 {
+      width: 100%;
+      height: 30px;
+      text-decoration: underline;
+      margin-right: 8%;
+      color: #2F4F4F;
+    }
+
+
+
+    .results_photo {
+      display: flex;
+      flex-wrap: wrap;
+      width: 90%;
+      height: auto;
+      margin: auto;
+      margin-bottom: 150px;
+
+
+    }
+
+    .results_photo img {
+      width: 20%;
+      height: 100%;
+      padding: 5px 5px 25px 5px;
+      transition: transform 0.25s ease;
+      margin: auto;
+
+    }
+
+    .results_photo>img:active {
+
+      transform: scale(1.7);
+      margin: 0 auto;
+
+    }
+
+    @media screen and (max-width:850px) {
+
+      .results_photo img {
+        width: 30%;
+      }
+    }
+
+    @media screen and (max-width:700px) {
+
+      .results_photo img {
+        width: 35%;
+      }
+    }
+    @media screen and (max-width:500px){
+      .results_photo img{
+        width:80%;
+          }
+        .results_photo>img:active {
+
+          transform: scale(1);
+          margin: 0 auto;
+        }
+        .results_text h2 {
+          width: 70%;
+          height: 20px;
+          text-decoration: underline;
+          margin: auto;
+          margin-bottom: 35px;
+        }
+
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+  <section class="results_text">
+    <h2>תוצאות של הלקוחות</h2>
+
+  </section>
+  <section class="results_photo">
+    <img src="pics/res1.jpg" alt="">
+    <img src="pics/res2.jpg" alt="">
+    <img src="pics/res3.jpg" alt="">
+    <img src="pics/res4.jpg" alt="">
+    <img src="pics/res5.jpg" alt="">
+    <img src="pics/res6.jpg" alt="">
+    <img src="pics/res7.jpg" alt="">
+    <img src="pics/res8.jpg" alt="">
+    <img src="pics/res9.jpg" alt="">
+
+  </section>
+  <script src="results.js" charset="utf-8"></script>
+</body>
+
+</html>

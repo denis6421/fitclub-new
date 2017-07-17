@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>home</title>
+  <LINK href="query.css" rel="stylesheet" type="text/css">
+  <style>
+  body{
+    width: 100%;
+    height: auto;
+    }
+
+  main.home_container{
+      width: 100%;
+      margin-top: 25px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+
+  }
+  .home_intro{
+    text-align: center;
+    background: #f2f2f3;;
+    margin-top: 0px;
+    margin-right:7%;
+    width: 70%;
+    height: 25%;
+    border-radius: 30px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .home_intro p {
+    width: 100%;
+    font-size: 20px;
+    line-height: 130%;
+
+
+  }
+    .home_pictures {
+      width: 70%;
+      margin-right: 6%;
+      max-height: auto;
+      transition: 1s;
+      left: 0;
+      margin: auto;
+      position: relative;
+    }
+
+    .mySlides {
+      width: 100%;
+      height: 100%;
+      border: 1px solid white;
+      border-radius: 30px;
+      overflow: hidden;
+
+       left: 0;
+
+    }
+  .leftButton {
+    width: 30px;
+    position: absolute;
+    top: 20vw;
+    left: 1vw;
+    cursor: pointer;
+  }
+
+  .rightButton {
+    width: 30px;
+    position: absolute;
+    top:20vw;
+    right:1vw;
+    cursor: pointer;
+  }
+  @media screen and (max-width:960px){
+
+    main.home_container {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .home_pictures {
+      width: 90%;
+      margin: auto;
+
+    }
+    .mySlides {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+
+    }
+    .home_intro {
+      margin: auto;
+      margin-top: 5%;
+      width: 80%;
+      height: auto;
+      left: 40%;
+
+
+    }
+    .leftButton {
+      top: 22vw;
+    }
+    .rightButton {
+      top: 22vw;
+    }
+  }
+@media screen and (max-width:500px){
+  .home_pictures {
+    width: 100%;
+
+  }
+}
+
+
+  </style>
+</head>
+
+<body>
+  <main class="home_container">
+
+    <div class="home_pictures">
+      <img src="pics/home/pic1.jpg" alt="" class="mySlides" />
+      <img src="pics/home/pic2.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic3.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic4.jpg" alt="" class="mySlides" >
+      <img src="pics/home/pic5.jpg" alt="" class="mySlides" >
+      <img src="pics/home/pic6.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic7.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic8.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic9.jpg" alt="" class="mySlides">
+      <img src="pics/home/pic10.jpg" alt="" class="mySlides">
+      <img src="pics/left-button.png" class="leftButton" />
+      <img src="pics/right-button.png" class="rightButton" width="30px" />
+    </div>
+    <section class="home_intro">
+      <h2 >על המועדון</h2>
+      <p>פיט קלאב הוא פרוייקט שהגיע מארה״ב ותופס תאוצה בארץ ובעולם בעצם זהו מודל שמשלב פעילות ספורט חברתית מהנה עם תזונה נכונה. המטרה שלנו היא לעזור לאנשים להשיג תוצאה של הרגשה טובה, ירידה במשקל, חיטוב הגוף, וכמובן שהיה הרבה כייף להתאמן יחד האימונים בפיט קלאב הם אימונים פונקציונלים שמעודדים בניית מסת שריר ושריפת שומנים. </p>
+        </section>
+
+  </main>
+
+
+  <script src="home.js" charset="utf-8"></script>
+</body>
+
+</html>
