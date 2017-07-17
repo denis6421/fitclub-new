@@ -96,7 +96,7 @@ body{
 }
 @media screen and (max-width:500px){
 header{
-  height: 50px;
+  height: 55px;
   position: relative;
 
 }
@@ -107,28 +107,35 @@ left: 20px;
 top: 5px;
 }
 .menu-button img{
-  width:20px;
+  width:25px;
 
 
 }
 
   body{
-  display: flex;
-  flex-direction: column;
+    overflow-x: hidden;
   }
 .mobile_header>nav>ul{
   text-align: center;
   width: 100%;
+
 }
 .mobile_header{
   text-align: center;
 }
 .mobile_header>nav>ul>li{
   padding-right: 0px;
+height: 40px;
 }
 .main_flex img{
   width: 100%;
-}
 
+}
+.main_flex{
+  margin-top: 20px;
+}
+footer{
+  height: 150px;
+}
 
 }

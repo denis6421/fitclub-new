@@ -11,7 +11,7 @@ body {
   height: auto;
   overflow-x: hidden;
   overflow-y: scroll;
-font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
 }
 
