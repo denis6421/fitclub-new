@@ -46,7 +46,7 @@ body{
     padding: 0px;
     cursor: pointer;
     padding-right: 20px;
-    border-bottom: 0.3px solid white;
+    border-bottom: 0.1px solid white;
     height: 35px;
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@ top: 5px;
   }
 .mobile_header>nav>ul{
   text-align: center;
-  width: 99%;
+  width: 100%;
 
 }
 .mobile_header{
@@ -125,10 +125,10 @@ top: 5px;
 }
 .mobile_header>nav>ul>li{
   padding-right: 0px;
-height: 40px;
+  height: 45px;
 }
 .main_flex img{
-  width: 99%;
+  width: 98%;
 
 }
 .main_flex{
