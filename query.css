@@ -117,7 +117,7 @@ top: 5px;
   }
 .mobile_header>nav>ul{
   text-align: center;
-  width: 100%;
+  width: 99%;
 
 }
 .mobile_header{
@@ -128,7 +128,7 @@ top: 5px;
 height: 40px;
 }
 .main_flex img{
-  width: 100%;
+  width: 99%;
 
 }
 .main_flex{
